@@ -1,0 +1,153 @@
+@charset "ISO-8859-1";
+
+*{
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.form_content{
+	
+	position: absolute;
+  	top: 165px;
+    left: 675px;
+    width:500px;
+    height:600px;
+  	background-color: white;
+    color: #515151;
+    font-size:small;
+    padding-left: 50px;
+    padding-bottom: 60px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    text-align: left;
+
+}
+ 
+ 
+.form_content_pages{
+	
+	position: absolute;
+    top: 165px;
+    left: 675px;
+    width:550px;
+    height:700px;
+  	background-color: white;
+    color: #515151;
+    font-size:12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 60px;
+    padding-top: 60px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    text-align: left;
+
+} 
+
+.reportform{
+	
+	position: absolute;
+   top: 165px;
+    left: 675px;
+    width:550px;
+    height:1380px;
+  	background-color: white;
+    color: #515151;
+    font-size:12px;
+    padding-left: 40px;
+    padding-right: 20px;
+   
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    text-align: left;
+
+} 
+ 
+.form_content .register{
+   font-size: xx-large;
+   color: black;
+ }  
+ 
+ .button{
+  			padding: 10px 20px;
+            border: none;
+            background-color:black;
+            color: white;
+            font-size: 16px;
+            border-radius: 30px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            &:hover {
+                background-color: green;
+            }
+ } 
+ 
+.form_content_pages h3{
+	
+	display: inline;
+	color :#a4a4a4;
+	
+}
+
+.languageform{
+	
+	position: absolute;
+    top: 165px;
+    left: 675px;
+    width:550px;
+    height:700px;
+  	background-color: white;
+    color: #515151;
+    font-size:12px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    text-align: left;
+
+} 
+
+.languageform .register{
+   font-size: xx-large;
+   color: black;
+   margin-top: 0px;
+ }
+
+ 
+ 
+  .buttons{
+ 			margin-left: 200px;
+  			padding: 10px 20px;
+            border: none;
+            background-color:black;
+            color: white;
+            font-size: 16px;
+            border-radius: 30px;
+            width:70px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            &:hover {
+                background-color: green;
+            }
+ } 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
