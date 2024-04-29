@@ -53,15 +53,15 @@
 	
 	position: absolute;
    top: 165px;
-    left: 675px;
-    width:550px;
-    height:1380px;
+    left: 525px;
+    width:850px;
+    height:1180px;
   	background-color: white;
     color: #515151;
     font-size:12px;
     padding-left: 40px;
-    padding-right: 20px;
-   
+    padding-right: 40px;
+   padding-top: 540px;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -70,6 +70,64 @@
     text-align: left;
 
 } 
+
+.reportform h6{
+	
+}
+.reportform .heading{
+	
+	color: white; 
+	padding-top: 10px; 
+	font-size: 16px; 
+	background-color:purple;
+	width: fit-content;
+	padding: 5px 10px;
+     border: none;
+     border-radius: 10px;
+     
+}
+.reportform .count{
+	top: 20px;
+	left: 0px;
+	position: relative;
+	display: inline;
+}
+
+.reportform .gender{
+	top: 50px;
+	left: 0px;
+	position: relative;
+}
+
+.reportform .regVoters{
+	top: -180px;
+	left: 400px;
+	position: relative;
+}
+
+.reportform .choice{
+	top: -60px;
+	left: -400px;
+	position: relative;
+}
+
+.reportform .trust{
+	top: -190px;
+	left: 0px;
+	position: relative;
+}
+
+.reportform .awareness{
+	top: -150px;
+	left: 0px;
+	position: relative;
+}
+
+.reportform .source{
+	top: -380px;
+	left: -400px;
+	position: relative;
+}
  
 .form_content .register{
    font-size: xx-large;
@@ -78,6 +136,23 @@
  
  .button{
   			padding: 10px 20px;
+            border: none;
+            background-color:black;
+            color: white;
+            font-size: 16px;
+            border-radius: 30px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            &:hover {
+                background-color: green;
+            }
+ } 
+ 
+  .reportButton{
+			  position :relative;
+  			padding: 10px 20px;
+  			top : -280px;
+  			left: -80px;
             border: none;
             background-color:black;
             color: white;
@@ -144,6 +219,48 @@
             }
  } 
  
+
+ 
+.bar-chart {
+  display: flex;
+  align-items: flex-end;
+  font-weight: bold;
+}
+
+.bar {
+  margin-right: 20px;
+}
+
+.bar-label {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.bar-inner {
+  background-color: #007bff;
+  width: 55px;
+  height: 0; /* Set initial height to 0 */
+  position: relative;
+  transition: height 0.5s ease; /* Add smooth transition effect */
+}
+
+.bar-inner::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.percentage {
+  position: absolute;
+  top: calc(100% + 5px); /* Adjust position for percentage */
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+
+
  
  
  

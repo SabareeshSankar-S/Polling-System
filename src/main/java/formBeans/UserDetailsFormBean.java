@@ -57,28 +57,28 @@ public class UserDetailsFormBean extends ActionForm{
 		this.age = age;
 	}
 	
-	@Override
-	public ActionErrors validate(ActionMapping mapping, HttpServletRequest request) 
-	{
-		ActionErrors actionErrors = new ActionErrors();
-		
-		if(name.equals(""))
-			actionErrors.add("nameError", new ActionMessage("nameErrorMsg"));
-		if(email.equals(""))
-			actionErrors.add("emailError", new ActionMessage("emailErrorMsg"));
-		if(gender.equals(""))
-			actionErrors.add("genderError", new ActionMessage("genderErrorMsg"));
-		if(qualification.equals(""))
-			actionErrors.add("qualificationError", new ActionMessage("qualificationErrorMsg"));
-		if(occupation.equals(""))
-			actionErrors.add("occupationError", new ActionMessage("occupationErrorMsg"));
-		if(state.equals(""))
-			actionErrors.add("stateError", new ActionMessage("stateErrorMsg"));
-		if(age==0)
-			actionErrors.add("ageError", new ActionMessage("ageErrorMsg"));
-		
-		return actionErrors ;	
-	}
+//	@Override
+//	public ActionErrors validate(ActionMapping mapping, HttpServletRequest request) 
+//	{
+//		ActionErrors actionErrors = new ActionErrors();
+//		
+//		if(name.equals(""))
+//			actionErrors.add("nameError", new ActionMessage("nameErrorMsg"));
+//		if(email.equals(""))
+//			actionErrors.add("emailError", new ActionMessage("emailErrorMsg"));
+//		if(gender.equals(""))
+//			actionErrors.add("genderError", new ActionMessage("genderErrorMsg"));
+//		if(qualification.equals(""))
+//			actionErrors.add("qualificationError", new ActionMessage("qualificationErrorMsg"));
+//		if(occupation.equals(""))
+//			actionErrors.add("occupationError", new ActionMessage("occupationErrorMsg"));
+//		if(state.equals(""))
+//			actionErrors.add("stateError", new ActionMessage("stateErrorMsg"));
+//		if(age==0)
+//			actionErrors.add("ageError", new ActionMessage("ageErrorMsg"));
+//		
+//		return actionErrors ;	
+//	}
 	
 	public ActionErrors testValidate(ActionMapping mapping, HttpServletRequest request) 
 	{

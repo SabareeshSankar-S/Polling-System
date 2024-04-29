@@ -39,7 +39,7 @@ public class ReportGenerationController extends Action{
 			String gender=resultSet.getString("gender");
 			genderList.add(gender);
 		}
-
+		request.setAttribute("countList", genderList);
 		Map<String,Double> genderPercentageMap = service.getGenderPercentage(genderList);
 		request.setAttribute("genderPercentageMap", genderPercentageMap);
 
